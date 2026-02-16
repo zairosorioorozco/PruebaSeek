@@ -1,10 +1,10 @@
-# 📘 Automation — Entregables QA
+# Automation — Entregables QA
 
 Repositorio de evidencias y documentación del proceso de aseguramiento de calidad, enfocado en pruebas funcionales, automatizadas y gestión de defectos mediante Jira + Xray.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Centralizar y documentar los artefactos generados durante el ciclo de pruebas, garantizando:
 
@@ -15,16 +15,17 @@ Centralizar y documentar los artefactos generados durante el ciclo de pruebas, g
 
 ---
 
-## 📁 Contenido del Repositorio
+## Contenido del Repositorio
 
 | Archivo / Carpeta | Descripción |
 |------------------|-------------|
-| 📂 Automation/ | Proyecto de automatización (Serenity + Selenium + Cucumber) |
-| 📄 Informe_Jira_Xray_QA.pdf | Reporte de ejecución desde Jira/Xray |
-| 📄 Informe_Prueba_Jira_Xray_QA.pdf | Evidencia de pruebas funcionales |
-| 📊 Matriz_de_Trazabilidad.xlsx | Relación Requisitos ↔ Casos ↔ Defectos |
-| 📄 README.md | Documentación principal |
-| 📄 Reporte_bug.pdf | Informe detallado de defectos |
+| Automation/ | Proyecto de automatización (Serenity + Selenium + Cucumber) |
+|  Informe_Jira_Xray_QA.pdf | Reporte de ejecución desde Jira/Xray |
+|  Informe_Prueba_Jira_Xray_QA.pdf | Evidencia de pruebas funcionales |
+|  Matriz_de_Trazabilidad.xlsx | Relación Requisitos ↔ Casos ↔ Defectos |
+|  README.md | Documentación principal |
+|  Reporte_bug.pdf | Informe detallado de defectos |
+|  Reporte de pruebas de carga.html | Informe detallado de los tiempos|
 
 ---
 
@@ -62,7 +63,7 @@ El archivo `Matriz_de_Trazabilidad.xlsx` permite:
 
 Los defectos se documentan en:
 
-📄 `Reporte_bug.pdf`
+`Reporte_bug.pdf`
 
 Incluye:
 
@@ -93,6 +94,7 @@ El proyecto ubicado en `Automation` contiene:
 - Casos críticos ejecutados
 - Defectos identificados y reportados
 - Evidencia almacenada
+- Pruebas de carga NFT carga y stress
 
 ---
 
