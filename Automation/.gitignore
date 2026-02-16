@@ -1,0 +1,19 @@
+### VS Code ###
+.vscode/
+
+### reports ###
+/reports
+/reports/finalReport.html
+/reports/cucumber-report.html
+/reports/cucumber-report.json
+/reports/cucumber-report-junit.xml
+/reports/pretty.txt
+/reports/rerun.txt
+/reports/usage.json
+/src/test/resources/error
+/src/test/resources/datos
+/src/main/resources/locator/*
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Open card Automation" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-19T21:23:30" hostname="ANDROID" time="38.163">
+  <properties/>
+  <testcase name="Buscar Producto" classname="Open card Automation" time="38.163"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may 19, 2024 4:23:40 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+may 19, 2024 4:23:40 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+1716153824748	geckodriver	INFO	Listening on 127.0.0.1:48967
+1716153826114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\USER-PC\\AppData\\Local\\Temp\\rust_mozprofileyfDlbF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1716153826958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1716153827399	Marionette	INFO	Listening on port 3869
+Read port: 3869
+1716153827974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+may 19, 2024 4:23:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+1716153847037	Marionette	INFO	Stopped listening on port 3869
+Dynamically enable window occlusion 1
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Buscar Producto
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
