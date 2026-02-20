@@ -1,5 +1,96 @@
 [
   {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "TC-Login-01 — Login exitoso con credenciales válidas",
+        "description": "",
+        "id": "login;tc-login-01-—-login-exitoso-con-credenciales-válidas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9374955700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "el usuario se encuentra en la página de login",
+            "match": {
+              "location": "LoginDefinitions.elUsuarioSeEncuentraEnLaPáginaDeLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678520500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "ingresa el username y password válidos",
+            "match": {
+              "location": "LoginDefinitions.ingresaElUsernameYPasswordVálidos(UserData\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "qa_user_002",
+                  "Qa#12345678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1709608900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "presiona el botón Submit",
+            "match": {
+              "location": "LoginDefinitions.presionaElBotónSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209309500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el usuario ingresa correctamente al sistema",
+            "match": {
+              "location": "LoginDefinitions.elUsuarioIngresaCorrectamenteAlSistema()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": []
+  },
+  {
     "line": 2,
     "elements": [
       {
@@ -12,7 +103,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9827809000,
+              "duration": 7142616400,
               "status": "passed"
             },
             "line": 10,
@@ -24,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 1373805600,
+              "duration": 1249397100,
               "status": "passed"
             },
             "line": 12,
@@ -54,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 1588318800,
+              "duration": 1535863700,
               "status": "passed"
             },
             "line": 16,
@@ -86,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 993949500,
+              "duration": 946151700,
               "status": "passed"
             },
             "line": 20,
@@ -114,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 1940560400,
+              "duration": 2291702500,
               "status": "passed"
             },
             "line": 24,
@@ -126,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 216190300,
+              "duration": 205638300,
               "status": "passed"
             },
             "line": 25,

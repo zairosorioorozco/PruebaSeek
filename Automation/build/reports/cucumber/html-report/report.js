@@ -1,4 +1,77 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/RegistrarUsuario.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Login.feature");
+formatter.feature({
+  "name": "Login",
+  "description": "",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "name": "TC-Login-01 — Login exitoso con credenciales válidas",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@login"
+    }
+  ]
+});
+formatter.step({
+  "name": "el usuario se encuentra en la página de login",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginDefinitions.elUsuarioSeEncuentraEnLaPáginaDeLogin()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "ingresa el username y password válidos",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
+    {
+      "cells": [
+        "qa_user_002",
+        "Qa#12345678"
+      ]
+    }
+  ],
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginDefinitions.ingresaElUsernameYPasswordVálidos(UserData\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "presiona el botón Submit",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginDefinitions.presionaElBotónSubmit()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "el usuario ingresa correctamente al sistema",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginDefinitions.elUsuarioIngresaCorrectamenteAlSistema()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("src/test/resources/features/RegistrarUsuario.feature");
 formatter.feature({
   "name": "Registro de usuario",
   "description": "  Como visitante del sistema\n  Quiero registrarme en la plataforma\n  Para poder acceder con una cuenta propia",

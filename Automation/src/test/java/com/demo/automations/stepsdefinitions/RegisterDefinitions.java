@@ -19,7 +19,7 @@ public class RegisterDefinitions extends BasePage {
 
     @Given("^el usuario se encuentra en la página de registro$")
     public void el_usuario_se_encuentra_en_la_página_de_registro() throws Exception {
-        registerHomePageStep.openTheBrowser();
+        registerHomePageStep.openTheBrowser("/register.php");
     }
 
     @When("^completa el formulario de contacto con:$")
@@ -51,6 +51,7 @@ public class RegisterDefinitions extends BasePage {
     public void se_muestra_un_mensaje_de_confirmación() {
         registerHomePageStep.validarRegistroExitoso();
     }
+
 
 
 }

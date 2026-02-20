@@ -1,14 +1,18 @@
 com/demo/automation/page/models/ContactData.java
  models.ContactData
-com/demo/automation/page/models/PostalData.java
- models.PostalData
 com/demo/automation/page/models/UserData.java
  com.demo.automation.page.models.UserData
+com/demo/automation/page/models/PostalData.java
+ models.PostalData
 com/demo/automation/page/utils/SpecialMetods.java
  com.demo.automation.page.utils.SpecialMetods
-com/demo/automation/page/base/BasePage.java
- com.demo.automation.page.base.BasePage
-com/demo/automation/page/steps/RegisterHomePageStep.java
- com.demo.automation.page.steps.RegisterHomePageStep
 com/demo/automation/page/pageobjet/RegisterHomePage.java
  com.demo.automation.page.pageobjet.RegisterHomePage
+com/demo/automation/page/steps/RegisterHomePageStep.java
+ com.demo.automation.page.steps.RegisterHomePageStep
+com/demo/automation/page/base/BasePage.java
+ com.demo.automation.page.base.BasePage
+com/demo/automation/page/pageobjet/LoginHomePage.java
+ com.demo.automation.page.pageobjet.LoginHomePage
+com/demo/automation/page/steps/LoginHomePageStep.java
+ com.demo.automation.page.steps.LoginHomePageStep

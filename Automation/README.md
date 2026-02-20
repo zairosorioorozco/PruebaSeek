@@ -1,5 +1,4 @@
 # Automation Project (Serenity BDD + Cucumber + Selenium)
-
 Framework de automatización E2E basado en **Serenity BDD**, **Cucumber (Gherkin)** y **Selenium WebDriver** con **Java + Gradle**.  
 Incluye patrón **Page Object**, capa de **Steps** y utilidades reutilizables para validaciones.
 

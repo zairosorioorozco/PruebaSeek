@@ -42,9 +42,9 @@ public class BasePage extends PageObject {
         jsExecutor = (JavascriptExecutor) webDriver;
     }
 
-    public void abrirNavegadorEn() {
+    public void abrirNavegadorEn(String path) {
         SpecialMetods.configProperties();
-        webDriver.navigate().to(SpecialMetods.properties.getProperty("url"));
+        webDriver.navigate().to(SpecialMetods.properties.getProperty("url") + path );
     }
 
     public void validarDisponibilidadDelObjeto(By element) {
@@ -77,6 +77,9 @@ public class BasePage extends PageObject {
         this.validarDisponibilidadDelObjeto(elementBy);
         return webDriver.findElement(elementBy).getText();
     }
+    public String obtenerUrl(){
+        return webDriver.getCurrentUrl();
+    }
 
     public void validarIgual(By elementBy, String expectedText) {
         Assert.assertEquals(this.obtenerTexto(elementBy), expectedText);
@@ -90,6 +93,7 @@ public class BasePage extends PageObject {
         addCss(elementBy);
         Assert.assertTrue(webDriver.findElement(elementBy).isEnabled());
     }
+
 
 
 }

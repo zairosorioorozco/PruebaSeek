@@ -16,9 +16,9 @@ public class RegisterHomePageStep extends BasePage {
 
 
     @Step
-    public void openTheBrowser() throws InterruptedException {
+    public void openTheBrowser(String path) throws InterruptedException {
         configuracionesIniciales();
-        abrirNavegadorEn();
+        abrirNavegadorEn(path);
 
     }
 

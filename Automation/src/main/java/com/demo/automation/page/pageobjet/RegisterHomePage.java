@@ -20,8 +20,6 @@ public class RegisterHomePage extends PageObject {
     public final By campo_password = By.name("password");
     public final By campo_confirmPassword = By.name("confirmPassword");
     public final By btn_submit = By.name("submit");
-
-    //Validation
     public final  By msjConfirmacion = By.xpath("//*[contains(text(),'Thank you for registering')]");
 
 
